@@ -14,12 +14,15 @@
         "LCD_Driver.h",
         "SPI_RAM.cpp",
         "SPI_RAM.h",
-		"shims.d.ts",
+	"shims.d.ts",
         "enums.d.ts"
     ],
     "testFiles": [
         "test.ts"
     ],
     "public": false,
-    "license": "MIT"
+    "license": "MIT",
+    "disablesVariants": [
+        "mbcodal"
+    ]
 }
